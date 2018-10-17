@@ -1,0 +1,187 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.login{
+	width: 320px;
+	height: 420px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.login p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.login input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login input [type="submit"]: hover
+{
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+}
+
+.login a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+.login a:hover {
+	color: #39dc79;
+}
+
+
+
+
+
+
+
+#header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #3B577D;
+	overflow: hidden;
+
+}
+c{	
+text-align: left;
+	color: white;
+	text-decoration: none;
+	font-family: Arabic Typesetting;
+	font-size: 3.0vw;
+	font-style: bold;
+	padding:55px;
+
+
+}
+#nav{
+	margin-top: : 3px;
+	padding: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #44679F;
+
+}
+ul{
+	width: auto;
+	float: left;
+	margin-top: 8px;
+}
+li{
+	display: inline-block;
+	padding: 10px 15px; 
+}
+a{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 1.2vw;
+}
+a:hover{
+	color: #000066;
+	transition: 0.5s;
+}
+
+#daftar-artikel{
+	width: 700px;
+	float: left;
+	padding: 25px;
+	position: absolute;
+}
+.artikel{
+	background: #fff;
+	padding: 25px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.artikel img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+    height: 165px; 
+}
+
+.artikel b{
+	color: #616060;
+	background: #DDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.artikel p{
+	margin: 10px 0;
+}
+
+.artikel a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+
+
+#sidebar{
+	width: 350px;
+	margin: 0;
+	float: right;
+	background-color: #9999FF;
+	height: 900px;
+}
+#sidebar ul{
+margin-left: 10px;
+}
+#sidebar ul li a{
+	color: black;
+	text-decoration: none;
+}
+#footer{
+	clear: both;
+	margin: 0;
+    text-align: center;
+    background-color: #3B577D;
+    padding: 10px;
+    color: white;
+}
